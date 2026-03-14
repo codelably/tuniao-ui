@@ -140,6 +140,10 @@ const fontSize = getFontSizeByKey(this.baseStyle, "fontSize");
 1. 在 `core/tuniaoui/src/main/ets/components/` 下创建组件目录
 2. 在 `packages/main/` 中添加对应的示例页面，覆盖主要参数场景
 
+## 微信群
+添加微信好友，备注 "图鸟UI"
+![微信群](./wx.jpg)
+
 ## 相关资源
 
 - [TuniaoUI Vue3 版](https://vue3.tuniaokj.com/) -- 原版 Vue3 组件库
