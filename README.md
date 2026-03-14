@@ -142,8 +142,8 @@ const fontSize = getFontSizeByKey(this.baseStyle, "fontSize");
 
 ## 相关资源
 
-- [TuniaoUI Vue3 版](https://github.com/tuniaoTech/tuniaoui-rc-vue3-uniapp) -- 原版 Vue3 组件库
-- [HarmonyOS 开发者文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/arkts-get-started-V5) -- ArkTS 开发指南
+- [TuniaoUI Vue3 版](https://vue3.tuniaokj.com/) -- 原版 Vue3 组件库
+- [HarmonyOS 开发者文档](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/application-dev-guide) -- ArkTS 开发指南
 
 ## 开源协议
 
