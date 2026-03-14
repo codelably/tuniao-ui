@@ -1,0 +1,124 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "signature\\default_tuniao-ui_nYhW6_X2yvkeRq3H8Lya-6UvtQDoa6yCB88EVbCIclQ=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A53C605F3D406DF50A807943B73B02E0CB879D32B4F24E5AD9126AC16695CE61A38AB58809F85",
+          "profile": "signature\\default_tuniao-ui_nYhW6_X2yvkeRq3H8Lya-6UvtQDoa6yCB88EVbCIclQ=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "signature\\default_tuniao-ui_nYhW6_X2yvkeRq3H8Lya-6UvtQDoa6yCB88EVbCIclQ=.p12",
+          "storePassword": "0000001AEB8B31D01E7FABAD188E7FE671668B434DE4E0C1FA26F75FEEEE52A2199F1726A1E5A69AEAF6"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.1(21)",
+        "compatibleSdkVersion": "6.0.1(21)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "srcPath": "./core/common",
+    },
+    {
+      "name": "di",
+      "srcPath": "./core/di",
+    },
+    {
+      "name": "util",
+      "srcPath": "./core/util",
+    },
+    {
+      "name": "network",
+      "srcPath": "./core/network",
+    },
+    {
+      "name": "base",
+      "srcPath": "./core/base",
+    },
+    {
+      "name": "designsystem",
+      "srcPath": "./core/designsystem",
+    },
+    {
+      "name": "layoutstate",
+      "srcPath": "./core/layoutstate",
+    },
+    {
+      "name": "navigation",
+      "srcPath": "./core/navigation",
+    },
+    {
+      "name": "module",
+      "srcPath": "./core/module",
+    },
+    {
+      "name": "testing",
+      "srcPath": "./core/testing",
+    },
+    {
+      "name": "ibestui",
+      "srcPath": "./core/ibestui",
+    },
+    {
+      "name": "components",
+      "srcPath": "./core/components",
+    },
+    {
+      "name": "contracts",
+      "srcPath": "./shared/contracts",
+    },
+    {
+      "name": "state",
+      "srcPath": "./shared/state",
+    },
+    {
+      "name": "types",
+      "srcPath": "./shared/types",
+    },
+    {
+      "name": "main",
+      "srcPath": "./packages/main",
+    },
+    {
+      "name": "tuniaoui",
+      "srcPath": "./core/tuniaoui",
+    }
+  ]
+}

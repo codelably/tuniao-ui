@@ -1,0 +1,168 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "TuniaoUI"
+    },
+    {
+      "name": "component",
+      "value": "组件"
+    },
+    {
+      "name": "about",
+      "value": "关于"
+    },
+    {
+      "name": "expand",
+      "value": "扩展"
+    },
+    {
+      "name": "main_about_desc",
+      "value": "TuniaoUI ArkTS 开源组件"
+    },
+    {
+      "name": "main_about_group_info",
+      "value": "项目信息"
+    },
+    {
+      "name": "main_about_group_links",
+      "value": "友情链接"
+    },
+    {
+      "name": "main_about_link_ibest_title",
+      "value": "IBest-UI"
+    },
+    {
+      "name": "main_about_link_ibest_desc",
+      "value": "鸿蒙开源 UI 组件库"
+    },
+    {
+      "name": "main_about_link_ibest_url",
+      "value": "https://ibestui-v2.ibestservices.com"
+    },
+    {
+      "name": "main_about_link_hcompass_title",
+      "value": "HCompass"
+    },
+    {
+      "name": "main_about_link_hcompass_desc",
+      "value": "鸿蒙应用开发框架"
+    },
+    {
+      "name": "main_about_copyright",
+      "value": "Made with ❤\uFE0F by Tuniao UI"
+    },
+    {
+      "name": "main_about_link_github_title",
+      "value": "GitHub仓库"
+    },
+    {
+      "name": "main_about_link_github_url",
+      "value": "https://github.com/codelably/tuniao-ui"
+    },
+    {
+      "name": "main_about_link_atomgit_title",
+      "value": "GitCode仓库"
+    },
+    {
+      "name": "main_about_link_atomgit_url",
+      "value": "https://atomgit.com/codelably/tuniao-ui"
+    },
+    {
+      "name": "component_current_version",
+      "value": "当前版本"
+    },
+    {
+      "name": "main_component_link_doc_title",
+      "value": "组件库文档"
+    },
+    {
+      "name": "main_component_link_doc_url",
+      "value": "https://hm.tuniaokj.com"
+    },
+    {
+      "name": "main_about_link_doc_title",
+      "value": "应用框架文档"
+    },
+    {
+      "name": "main_about_link_doc_url",
+      "value": "https://hcompass.codelably.com"
+    },
+    {
+      "name": "main_about_link_orm_title",
+      "value": "IBest-ORM"
+    },
+    {
+      "name": "main_about_link_orm_desc",
+      "value": "鸿蒙开源 ORM 工具"
+    },
+    {
+      "name": "main_about_link_orm_url",
+      "value": "https://ibest-orm.ibestservices.com"
+    },
+    {
+      "name": "main_core_counter_label",
+      "value": "当前计数"
+    },
+    {
+      "name": "main_navigation_with_args_title",
+      "value": "带参跳转"
+    },
+    {
+      "name": "main_navigation_with_args_desc",
+      "value": "类型安全路由参数，包含商品 ID 与商品名称。"
+    },
+    {
+      "name": "main_navigation_goods_name",
+      "value": "示例商品"
+    },
+    {
+      "name": "main_navigation_result_title",
+      "value": "结果回传"
+    },
+    {
+      "name": "main_navigation_result_desc",
+      "value": "类型安全返回结果，数据结构为 DemoResult。"
+    },
+    {
+      "name": "main_navigation_result_title_label",
+      "value": "回传标题"
+    },
+    {
+      "name": "main_navigation_result_desc_label",
+      "value": "回传说明"
+    },
+    {
+      "name": "main_navigation_result_value_empty",
+      "value": "未收到返回参数"
+    },
+    {
+      "name": "main_navigation_intercept_title",
+      "value": "导航拦截"
+    },
+    {
+      "name": "main_navigation_intercept_desc",
+      "value": "未登录跳转登录页，登录后进入用户资料页。"
+    },
+    {
+      "name": "main_navigation_logged_in",
+      "value": "已登录"
+    },
+    {
+      "name": "main_expand_safe_area_title",
+      "value": "安全区"
+    },
+    {
+      "name": "main_expand_safe_area_desc",
+      "value": "展示安全区 inset 数据，便于适配刘海与手势区域。"
+    },
+    {
+      "name": "main_expand_screen_adapt_title",
+      "value": "屏幕适配"
+    },
+    {
+      "name": "main_expand_screen_adapt_desc",
+      "value": "展示断点与窗口宽度，便于响应式布局适配。"
+    }
+  ]
+}

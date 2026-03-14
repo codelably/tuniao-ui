@@ -1,0 +1,22 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/axios": "2.2.7",
+    "@core/di": "file:../core/di",
+    "@core/layoutstate": "file:../core/layoutstate",
+    "@core/util": "file:../core/util",
+    "@core/navigation": "file:../core/navigation",
+    "@core/ibestui": "file:../core/ibestui",
+    "@core/network": "file:../core/network",
+    "@core/module": "file:../core/module",
+    "@core/common": "file:../core/common",
+    "@package/main": "file:../packages/main",
+    "@tuniao/tn-ui": "file:../core/tuniaoui"
+  }
+}
+
