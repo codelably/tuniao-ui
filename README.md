@@ -141,8 +141,10 @@ const fontSize = getFontSizeByKey(this.baseStyle, "fontSize");
 2. 在 `packages/main/` 中添加对应的示例页面，覆盖主要参数场景
 
 ## 微信群
-添加微信好友，备注 "图鸟UI"
-![微信群](./wx.jpg)
+请添加微信好友, 备注 "图鸟UI"
+<div style="display: flex; gap: 20px;">
+  <img src="./wx.jpg" alt="微信群" style="height: 500px; width: auto;" />
+</div>
 
 ## 相关资源
 
