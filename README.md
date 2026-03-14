@@ -84,7 +84,7 @@ node "path/to/DevEco Studio/tools/node/node.exe" \
 ## 使用示例
 
 ```typescript
-import { TnButton } from "@tuniaoui/components";
+import { TnButton } from "@tuniao/tn-ui";
 
 @Entry
 @ComponentV2
@@ -104,7 +104,7 @@ struct MyPage {
 所有组件通过 `baseStyle` 获取主题样式，支持全局统一配置颜色、字体、间距、圆角等：
 
 ```typescript
-import { getThemeColor, getFontSizeByKey } from "@tuniaoui/common";
+import { getThemeColor, getFontSizeByKey } from "@tuniao/tn-ui";
 
 // 获取主题色
 const primaryColor = getThemeColor(this.baseStyle, "primary");
