@@ -4,6 +4,8 @@ TuniaoUI 鸿蒙版 -- 基于 ArkTS 的 HarmonyOS 原生 UI 组件库。
 
 本项目将 [TuniaoUI Vue3](https://github.com/tuniaoTech/tuniaoui-rc-vue3-uniapp) 设计体系移植到鸿蒙生态，为 HarmonyOS 应用开发者提供开箱即用的高质量组件。
 
+**查看 [开发文档](https://hm.tuniaokj.com)** -- 包含完整的组件 API、代码示例与使用指南。
+
 ## 特性
 
 - **原生 ArkTS** -- 完全使用 ArkTS 编写，无跨平台桥接开销
