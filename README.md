@@ -1,10 +1,20 @@
-# TuniaoUI for HarmonyOS
+<p align="center">
+    <img src="https://vue3.tuniaokj.com/images/tuniao-logo.svg" width="150">
+</p>
 
-TuniaoUI 鸿蒙版 -- 基于 ArkTS 的 HarmonyOS 原生 UI 组件库。
+<p align="center">TuniaoUI - 基于 HarmonyOS ArkTS 的原生 UI 组件库</p>
+
+<p align="center">
+    <a href="https://hm.tuniaokj.com/" target="_blank">文档</a>
+    ❤️
+    <a href="https://github.com/codelably/tuniao-ui" target="_blank">Github</a>
+    ❤️
+    <a href="https://gitcode.com/codelably/tuniao-ui" target="_blank">AtomGit</a>
+</p>
+
+---
 
 本项目将 [TuniaoUI Vue3](https://github.com/tuniaoTech/tuniaoui-rc-vue3-uniapp) 设计体系移植到鸿蒙生态，为 HarmonyOS 应用开发者提供开箱即用的高质量组件。
-
-**[查看开发文档](https://hm.tuniaokj.com)** -- 包含完整的组件 API、代码示例与使用指南。
 
 ## 特性
 
