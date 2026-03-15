@@ -153,7 +153,7 @@ const fontSize = getFontSizeByKey(this.baseStyle, "fontSize");
 ## 微信群
 请添加微信好友, 备注 "图鸟UI"
 <div style="display: flex; gap: 20px;">
-  <img src="./wx.jpg" alt="微信群" style="height: 500px; width: auto;" />
+  <img src="./core/tuniaoui/example/wx.jpg" alt="微信群" style="height: 500px; width: auto;" />
 </div>
 
 ## 相关资源
@@ -163,4 +163,4 @@ const fontSize = getFontSizeByKey(this.baseStyle, "fontSize");
 
 ## 开源协议
 
-本项目基于 [MIT License](./LICENSE) 开源。
+本项目基于 [Apache License](./LICENSE) 开源。

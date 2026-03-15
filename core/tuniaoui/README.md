@@ -81,7 +81,12 @@ struct DemoPage {
 | 反馈组件 | Popup 弹出框 |
 | 布局组件 | List 列表 |
 
+## 微信群
+请添加微信好友, 备注 "图鸟UI"
+<div style="display: flex; gap: 20px;">
+  <img src="./example/wx.jpg" alt="微信群" style="height: 500px; width: auto;" />
+</div>
 
 ## 许可证
 
-[MIT](./LICENSE)
+[Apache License](./LICENSE)
