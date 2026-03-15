@@ -19,7 +19,7 @@
 ## 特性
 
 - **原生 ArkTS** -- 完全使用 ArkTS 编写，无跨平台桥接开销
-- **主题系统** -- 基于 baseStyle 的全局主题化，支持 6 大主题色 + 19 种内置命名色
+- **主题系统** -- 全局主题化，支持 6 大主题色 + 19 种内置命名色
 - **设计规范** -- 完整的间距、字体、圆角、阴影、毛玻璃分级体系
 - **V2 状态管理** -- 全面采用 `@ObservedV2` / `AppStorageV2` 等最新状态管理方案
 - **MVVM 架构** -- View 层纯渲染，业务逻辑封装在 ViewModel 中
@@ -69,8 +69,7 @@ tuniao-ui/
 ### 环境要求
 
 - **DevEco Studio** 5.0 或更高版本
-- **HarmonyOS SDK** API 12+ (compatibleSdkVersion 6.0.1)
-- **Node.js** 16+（用于文档站点开发）
+- **HarmonyOS SDK** API 12+
 
 ### 克隆与构建
 
