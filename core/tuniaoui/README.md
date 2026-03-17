@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://vue3.tuniaokj.com/images/tuniao-logo.svg" width="150">
+    <img src="https://hm.tuniaokj.com/tuniao-logo.svg" width="150">
 </p>
 
 <p align="center">TuniaoUI - 基于 HarmonyOS ArkTS 的原生 UI 组件库</p>
@@ -82,9 +82,10 @@ struct DemoPage {
 | 布局组件 | List 列表 |
 
 ## 微信群
-请添加微信好友, 备注 "图鸟UI"
+如微信群链接失效，请添加微信好友, 备注 "图鸟UI"
 <div style="display: flex; gap: 20px;">
-  <img src="./example/wx.jpg" alt="微信群" style="height: 500px; width: auto;" />
+  <img src="https://hm.tuniaokj.com/wx.jpg" alt="微信群" style="height: 350px; width: auto;" />
+  <img src="https://hm.tuniaokj.com/robot_wx.jpg" alt="微信助手" style="height: 350px; width: auto;" />
 </div>
 
 ## 许可证
