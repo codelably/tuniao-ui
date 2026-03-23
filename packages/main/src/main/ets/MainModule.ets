@@ -18,7 +18,7 @@ import {
   TnImageUploadNavWrapper, TnCalendarNavWrapper, TnWeekCalendarNavWrapper, TnFormNavWrapper,
   TnImagePreviewNavWrapper
 } from './navigation/FormComponentNav';
-import { TnPopupNavWrapper } from './navigation/FeedbackComponentNav';
+import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper } from './navigation/FeedbackComponentNav';
 import { TnListNavWrapper } from './navigation/LayoutComponentNav';
 import { MainNavSvcImpl } from './services/MainNavSvcImpl';
 import { Logger } from '@core/util';
@@ -107,6 +107,8 @@ export class MainModule implements FeatureModule {
     registry.register(MainRoutes.TnImagePreview, TnImagePreviewNavWrapper);
     // 注册反馈组件页面路由
     registry.register(MainRoutes.TnPopup, TnPopupNavWrapper);
+    registry.register(MainRoutes.TnModal, TnModalNavWrapper);
+    registry.register(MainRoutes.TnNotify, TnNotifyNavWrapper);
     // 注册布局组件页面路由
     registry.register(MainRoutes.TnList, TnListNavWrapper);
     // 注册阴影页面路由

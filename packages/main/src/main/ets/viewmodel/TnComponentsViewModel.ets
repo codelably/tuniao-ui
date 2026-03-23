@@ -258,13 +258,27 @@ export default class TnComponentsViewModel extends BaseViewModel {
     ),
     new ComponentGroupItem(
       "反馈组件",
-      "弹出框等用户反馈交互组件",
+      "弹出框、模态框等用户反馈交互组件",
       [
         new CoreCardItem(
           "弹出框",
           "Popup 弹出框组件",
           () => {
             this.navigateTo(MainRoutes.TnPopup);
+          }
+        ),
+        new CoreCardItem(
+          "模态框",
+          "Modal 模态框组件",
+          () => {
+            this.navigateTo(MainRoutes.TnModal);
+          }
+        ),
+        new CoreCardItem(
+          "消息通知",
+          "Notify 消息通知组件",
+          () => {
+            this.navigateTo(MainRoutes.TnNotify);
           }
         )
       ]

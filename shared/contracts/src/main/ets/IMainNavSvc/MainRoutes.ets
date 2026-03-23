@@ -124,6 +124,14 @@ export class MainRoutes {
    */
   static TnPopup = "main/tn-popup";
   /**
+   * 模态框展示页面路由
+   */
+  static TnModal = "main/tn-modal";
+  /**
+   * 消息通知展示页面路由
+   */
+  static TnNotify = "main/tn-notify";
+  /**
    * 列表展示页面路由
    */
   static TnList = "main/tn-list";

@@ -107,6 +107,10 @@ export { TnImagePreviewOption } from './src/main/ets/components/image-preview/Tn
 // Phase 7: 反馈组件
 export { TnPopup } from './src/main/ets/components/popup/TnPopup';
 export { TnPopupOpenDirection, TnPopupCloseBtnPosition } from './src/main/ets/components/popup/TnPopupTypes';
+export { TnModal } from './src/main/ets/components/modal/TnModal';
+export { TnModalAction, TnModalTextAlign, TnModalBeforeClose } from './src/main/ets/components/modal/TnModalTypes';
+export { default as TnNotify } from './src/main/ets/components/notify/TnNotify';
+export { TnNotifyType, TnNotifyPosition, TnNotifyOption } from './src/main/ets/components/notify/TnNotifyTypes';
 
 // Phase 8: 布局组件
 export { TnList } from './src/main/ets/components/list/TnList';
