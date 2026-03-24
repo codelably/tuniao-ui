@@ -116,3 +116,6 @@ export { TnNotifyType, TnNotifyPosition, TnNotifyOption } from './src/main/ets/c
 export { TnList } from './src/main/ets/components/list/TnList';
 export { TnListItem } from './src/main/ets/components/list/TnListItem';
 export { TnListItemProps, TnListProps } from './src/main/ets/components/list/TnListTypes';
+export { TnCollapse } from './src/main/ets/components/collapse/TnCollapse';
+export { TnCollapseItem } from './src/main/ets/components/collapse/TnCollapseItem';
+export { TN_COLLAPSE_EVENT, getTnCollapseEventName } from './src/main/ets/components/collapse/TnCollapseTypes';

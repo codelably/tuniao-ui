@@ -293,6 +293,13 @@ export default class TnComponentsViewModel extends BaseViewModel {
           () => {
             this.navigateTo(MainRoutes.TnList);
           }
+        ),
+        new CoreCardItem(
+          "折叠面板",
+          "Collapse 折叠面板组件",
+          () => {
+            this.navigateTo(MainRoutes.TnCollapse);
+          }
         )
       ]
     )

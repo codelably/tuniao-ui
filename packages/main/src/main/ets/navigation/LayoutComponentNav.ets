@@ -5,6 +5,7 @@
  */
 
 import { TnListPage } from '../view/TnListPage';
+import { TnCollapsePage } from '../view/TnCollapsePage';
 
 /**
  * 列表页面导航入口
@@ -19,3 +20,17 @@ export function TnListNav(): void {
  * 导出包装后的构建器
  */
 export const TnListNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnListNav);
+
+/**
+ * 折叠面板页面导航入口
+ * @returns {void} 无返回值
+ */
+@Builder
+export function TnCollapseNav(): void {
+  TnCollapsePage();
+}
+
+/**
+ * 导出包装后的构建器
+ */
+export const TnCollapseNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnCollapseNav);

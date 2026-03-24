@@ -343,12 +343,15 @@ export struct TnCalendar {
         this.rangeEnd = "";
       } else {
         if (dateStr < this.rangeStart) {
-          this.rangeEnd = this.rangeStart;
+          // 第二个日期比起始日期小，清除起始日期，以当前日期作为新起点
           this.rangeStart = dateStr;
+          this.rangeEnd = "";
+        } else if (dateStr === this.rangeStart) {
+          // 点击同一天，不做操作
         } else {
           this.rangeEnd = dateStr;
+          this.onChange([this.rangeStart, this.rangeEnd]);
         }
-        this.onChange([this.rangeStart, this.rangeEnd]);
       }
     }
   }

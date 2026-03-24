@@ -19,7 +19,7 @@ import {
   TnImagePreviewNavWrapper
 } from './navigation/FormComponentNav';
 import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper } from './navigation/FeedbackComponentNav';
-import { TnListNavWrapper } from './navigation/LayoutComponentNav';
+import { TnListNavWrapper, TnCollapseNavWrapper } from './navigation/LayoutComponentNav';
 import { MainNavSvcImpl } from './services/MainNavSvcImpl';
 import { Logger } from '@core/util';
 
@@ -111,6 +111,7 @@ export class MainModule implements FeatureModule {
     registry.register(MainRoutes.TnNotify, TnNotifyNavWrapper);
     // 注册布局组件页面路由
     registry.register(MainRoutes.TnList, TnListNavWrapper);
+    registry.register(MainRoutes.TnCollapse, TnCollapseNavWrapper);
     // 注册阴影页面路由
     registry.register(MainRoutes.Shadow, ShadowNavWrapper);
     // 注册毛玻璃效果页面路由

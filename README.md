@@ -26,19 +26,14 @@
 
 ## 组件列表
 
-| 组件 | 说明 | 组件 | 说明 |
-|------|------|------|------|
-| Button | 按钮 | Badge | 徽标 |
-| Calendar | 日历 | Checkbox | 复选框 |
-| DateTimePicker | 日期时间选择器 | Form | 表单 |
-| Icon | 图标 | ImagePreview | 图片预览 |
-| ImageUpload | 图片上传 | Input | 输入框 |
-| List | 列表 | Loading | 加载 |
-| NumberBox | 步进器 | Picker | 选择器 |
-| Popup | 弹出层 | Radio | 单选框 |
-| Rate | 评分 | RegionPicker | 地区选择器 |
-| Slider | 滑块 | Switch | 开关 |
-| Tag | 标签 | WeekCalendar | 周日历 |
+| 分类 | 组件                                                                                                                               |
+|------|----------------------------------------------------------------------------------------------------------------------------------|
+| 基础组件 | Icon 图标、Button 按钮、Tag 标签、Badge 徽标、Loading 加载                                                                                     |
+| 表单组件 | Switch 开关、Radio 单选框、Checkbox 复选框、Rate 评分、Input 输入框、NumberBox 步进器、Slider 滑块、ImageUpload 图片上传、Calendar 日历、WeekCalendar 周日历、Form 表单 |
+| 选择器 | Picker 选择器、DateTimePicker 日期时间选择器、RegionPicker 地区选择器                                                                             |
+| 展示组件 | ImagePreview 图片预览                                                                                                                |
+| 反馈组件 | Popup 弹出框、Modal 模态框、Notify 消息通知                                                                                                  |
+| 布局组件 | List 列表、Collapse 折叠面板                                                                                                                         |
 
 > 持续开发中，更多组件正在移植适配。
 

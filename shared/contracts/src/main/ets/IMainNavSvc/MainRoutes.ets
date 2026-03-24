@@ -136,6 +136,10 @@ export class MainRoutes {
    */
   static TnList = "main/tn-list";
   /**
+   * 折叠面板展示页面路由
+   */
+  static TnCollapse = "main/tn-collapse";
+  /**
    * 阴影展示页面路由
    */
   static Shadow = "main/shadow";
