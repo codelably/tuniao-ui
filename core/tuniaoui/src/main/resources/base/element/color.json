@@ -518,6 +518,10 @@
       "value": "#B3ff444f"
     },
     {
+      "name": "tn_toast_bg",
+      "value": "#B3000000"
+    },
+    {
       "name": "tn_shadow_light",
       "value": "#26000000"
     },

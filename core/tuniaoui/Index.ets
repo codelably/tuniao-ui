@@ -111,6 +111,10 @@ export { TnModal } from './src/main/ets/components/modal/TnModal';
 export { TnModalAction, TnModalTextAlign, TnModalBeforeClose } from './src/main/ets/components/modal/TnModalTypes';
 export { default as TnNotify } from './src/main/ets/components/notify/TnNotify';
 export { TnNotifyType, TnNotifyPosition, TnNotifyOption } from './src/main/ets/components/notify/TnNotifyTypes';
+export { default as TnToast } from './src/main/ets/components/toast/TnToast';
+export { TnToastType, TnToastPosition, TnToastWordBreak, TnToastOption, TnToastLoadingOption } from './src/main/ets/components/toast/TnToastTypes';
+export { TnNoticeBar } from './src/main/ets/components/notice-bar/TnNoticeBar';
+export { TnNoticeBarDirection, TnNoticeBarMode } from './src/main/ets/components/notice-bar/TnNoticeBarTypes';
 
 // Phase 8: 布局组件
 export { TnList } from './src/main/ets/components/list/TnList';
@@ -119,3 +123,9 @@ export { TnListItemProps, TnListProps } from './src/main/ets/components/list/TnL
 export { TnCollapse } from './src/main/ets/components/collapse/TnCollapse';
 export { TnCollapseItem } from './src/main/ets/components/collapse/TnCollapseItem';
 export { TN_COLLAPSE_EVENT, getTnCollapseEventName } from './src/main/ets/components/collapse/TnCollapseTypes';
+
+// Phase 9: 展示组件
+export { TnPhotoAlbum } from './src/main/ets/components/photo-album/TnPhotoAlbum';
+export { TnPhotoAlbumImgMode, TnPhotoAlbumProps } from './src/main/ets/components/photo-album/TnPhotoAlbumTypes';
+export { TnSwiper } from './src/main/ets/components/swiper/TnSwiper';
+export { TnSwiperIndicatorType, TnSwiperIndicatorPosition, TnSwiperEffect, TnSwiperProps } from './src/main/ets/components/swiper/TnSwiperTypes';

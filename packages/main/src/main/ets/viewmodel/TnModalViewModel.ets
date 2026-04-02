@@ -40,6 +40,4 @@ export default class TnModalViewModel extends BaseViewModel {
   @Trace customFooterVisible: boolean = false;
   /** 长内容模态框 */
   @Trace longContentVisible: boolean = false;
-  /** 操作结果文本 */
-  @Trace resultText: string = "";
 }

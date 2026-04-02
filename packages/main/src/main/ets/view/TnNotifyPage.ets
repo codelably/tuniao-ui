@@ -16,7 +16,7 @@ import {
   TnButton,
   TnNotify,
   TnNotifyOption,
-  getThemeColor,
+  TnToast,
   TnUIBaseStyleType,
   TnUIBaseStyle
 } from "@tuniao/tn-ui";
@@ -51,17 +51,6 @@ export struct TnNotifyPage {
   @Builder private PageContent(): void {
     MediumPaddingVerticalScroll() {
       ColumnBase({ widthValue: P100 }) {
-        // 操作结果展示
-        if (this.vm.resultText) {
-          Text(this.vm.resultText)
-            .fontSize($r("app.float.body_medium"))
-            .fontColor(getThemeColor(this.baseStyle, "primary"))
-            .padding($r("app.float.space_padding_medium"))
-            .width(P100)
-            .textAlign(TextAlign.Center);
-          SpaceVerticalMedium();
-        }
-
         // 基础用法
         this.SectionTitle("基础用法");
         SpaceVerticalMedium();
@@ -342,10 +331,10 @@ export struct TnNotifyPage {
                   option.type = "primary";
                   option.duration = 2000;
                   option.onOpen = () => {
-                    this.vm.resultText = "通知已打开";
+                    TnToast.show("通知已打开");
                   };
                   option.onClose = () => {
-                    this.vm.resultText = "通知已关闭";
+                    TnToast.show("通知已关闭");
                   };
                   TnNotify.show(option);
                 }
@@ -360,7 +349,7 @@ export struct TnNotifyPage {
                   option.type = "success";
                   option.duration = 5000;
                   option.onClick = () => {
-                    this.vm.resultText = "通知被点击了";
+                    TnToast.show("通知被点击了");
                   };
                   TnNotify.show(option);
                 }
@@ -380,7 +369,7 @@ export struct TnNotifyPage {
                   option.duration = 0;
                   option.onClick = () => {
                     TnNotify.hide();
-                    this.vm.resultText = "通知被点击并关闭";
+                    TnToast.show("通知被点击并关闭");
                   };
                   TnNotify.show(option);
                 }

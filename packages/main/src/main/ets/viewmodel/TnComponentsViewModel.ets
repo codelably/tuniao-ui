@@ -245,13 +245,27 @@ export default class TnComponentsViewModel extends BaseViewModel {
     ),
     new ComponentGroupItem(
       "展示组件",
-      "图片预览等内容展示组件",
+      "图片预览、相册、轮播图等内容展示组件",
       [
         new CoreCardItem(
           "图片预览",
           "ImagePreview 图片预览组件",
           () => {
             this.navigateTo(MainRoutes.TnImagePreview);
+          }
+        ),
+        new CoreCardItem(
+          "相册",
+          "PhotoAlbum 相册组件",
+          () => {
+            this.navigateTo(MainRoutes.TnPhotoAlbum);
+          }
+        ),
+        new CoreCardItem(
+          "轮播图",
+          "Swiper 轮播图组件",
+          () => {
+            this.navigateTo(MainRoutes.TnSwiper);
           }
         )
       ]
@@ -279,6 +293,20 @@ export default class TnComponentsViewModel extends BaseViewModel {
           "Notify 消息通知组件",
           () => {
             this.navigateTo(MainRoutes.TnNotify);
+          }
+        ),
+        new CoreCardItem(
+          "轻提示",
+          "Toast 轻提示组件",
+          () => {
+            this.navigateTo(MainRoutes.TnToast);
+          }
+        ),
+        new CoreCardItem(
+          "通知栏",
+          "NoticeBar 通知栏组件",
+          () => {
+            this.navigateTo(MainRoutes.TnNoticeBar);
           }
         )
       ]

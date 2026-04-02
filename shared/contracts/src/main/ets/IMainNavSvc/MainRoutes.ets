@@ -132,6 +132,10 @@ export class MainRoutes {
    */
   static TnNotify = "main/tn-notify";
   /**
+   * 轻提示展示页面路由
+   */
+  static TnToast = "main/tn-toast";
+  /**
    * 列表展示页面路由
    */
   static TnList = "main/tn-list";
@@ -140,6 +144,10 @@ export class MainRoutes {
    */
   static TnCollapse = "main/tn-collapse";
   /**
+   * 通知栏展示页面路由
+   */
+  static TnNoticeBar = "main/tn-notice-bar";
+  /**
    * 阴影展示页面路由
    */
   static Shadow = "main/shadow";
@@ -147,4 +155,12 @@ export class MainRoutes {
    * 毛玻璃效果展示页面路由
    */
   static BlurEffect = "main/blur-effect";
+  /**
+   * 相册展示页面路由
+   */
+  static TnPhotoAlbum = "main/tn-photo-album";
+  /**
+   * 轮播图展示页面路由
+   */
+  static TnSwiper = "main/tn-swiper";
 }

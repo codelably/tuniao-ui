@@ -13,7 +13,7 @@ import {
   SpaceVerticalSmall
 } from "@core/designsystem";
 import { getWindowSafeAreaState, WindowSafeAreaState } from "@core/layoutstate";
-import { TnButton, TnModal, TnModalAction, getThemeColor, TnUIBaseStyleType, TnUIBaseStyle, getFontSizeByKey } from "@tuniao/tn-ui";
+import { TnButton, TnModal, TnModalAction, TnToast, getThemeColor, TnUIBaseStyleType, TnUIBaseStyle, getFontSizeByKey } from "@tuniao/tn-ui";
 import { AppStorageV2 } from "@kit.ArkUI";
 import { TnAppStorageKey } from "@tuniao/tn-ui/src/main/ets/common/storage_key";
 import TnModalViewModel from "../viewmodel/TnModalViewModel";
@@ -57,8 +57,8 @@ export struct TnModalPage {
             title: "确认操作",
             content: "是否确认删除此项目？删除后不可恢复。",
             showCancel: true,
-            onConfirm: () => { this.vm.resultText = "点击了确认"; },
-            onCancel: () => { this.vm.resultText = "点击了取消"; }
+            onConfirm: () => { TnToast.show("点击了确认"); },
+            onCancel: () => { TnToast.show("点击了取消"); }
           });
           // 自定义按钮文字
           TnModal({
@@ -194,17 +194,6 @@ export struct TnModalPage {
   @Builder private PageContent(): void {
     MediumPaddingVerticalScroll() {
       ColumnBase({ widthValue: P100 }) {
-        // 操作结果展示
-        if (this.vm.resultText) {
-          Text(this.vm.resultText)
-            .fontSize($r("app.float.body_medium"))
-            .fontColor(getThemeColor(this.baseStyle, "primary"))
-            .padding($r("app.float.space_padding_medium"))
-            .width(P100)
-            .textAlign(TextAlign.Center);
-          SpaceVerticalMedium();
-        }
-
         // 基础用法
         this.SectionTitle("基础用法");
         SpaceVerticalMedium();

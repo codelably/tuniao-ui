@@ -18,8 +18,9 @@ import {
   TnImageUploadNavWrapper, TnCalendarNavWrapper, TnWeekCalendarNavWrapper, TnFormNavWrapper,
   TnImagePreviewNavWrapper
 } from './navigation/FormComponentNav';
-import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper } from './navigation/FeedbackComponentNav';
+import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper, TnToastNavWrapper, TnNoticeBarNavWrapper } from './navigation/FeedbackComponentNav';
 import { TnListNavWrapper, TnCollapseNavWrapper } from './navigation/LayoutComponentNav';
+import { TnPhotoAlbumNavWrapper, TnSwiperNavWrapper } from './navigation/DisplayComponentNav';
 import { MainNavSvcImpl } from './services/MainNavSvcImpl';
 import { Logger } from '@core/util';
 
@@ -109,6 +110,11 @@ export class MainModule implements FeatureModule {
     registry.register(MainRoutes.TnPopup, TnPopupNavWrapper);
     registry.register(MainRoutes.TnModal, TnModalNavWrapper);
     registry.register(MainRoutes.TnNotify, TnNotifyNavWrapper);
+    registry.register(MainRoutes.TnToast, TnToastNavWrapper);
+    registry.register(MainRoutes.TnNoticeBar, TnNoticeBarNavWrapper);
+    // 注册展示组件页面路由
+    registry.register(MainRoutes.TnPhotoAlbum, TnPhotoAlbumNavWrapper);
+    registry.register(MainRoutes.TnSwiper, TnSwiperNavWrapper);
     // 注册布局组件页面路由
     registry.register(MainRoutes.TnList, TnListNavWrapper);
     registry.register(MainRoutes.TnCollapse, TnCollapseNavWrapper);

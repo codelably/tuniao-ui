@@ -7,6 +7,8 @@
 import { TnPopupPage } from '../view/TnPopupPage';
 import { TnModalPage } from '../view/TnModalPage';
 import { TnNotifyPage } from '../view/TnNotifyPage';
+import { TnToastPage } from '../view/TnToastPage';
+import { TnNoticeBarPage } from '../view/TnNoticeBarPage';
 
 /**
  * 弹出框页面导航入口
@@ -37,3 +39,23 @@ export function TnNotifyNav(): void {
 }
 
 export const TnNotifyNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnNotifyNav);
+
+/**
+ * 轻提示页面导航入口
+ */
+@Builder
+export function TnToastNav(): void {
+  TnToastPage();
+}
+
+export const TnToastNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnToastNav);
+
+/**
+ * 通知栏页面导航入口
+ */
+@Builder
+export function TnNoticeBarNav(): void {
+  TnNoticeBarPage();
+}
+
+export const TnNoticeBarNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnNoticeBarNav);

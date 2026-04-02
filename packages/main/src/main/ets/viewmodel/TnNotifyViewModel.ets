@@ -10,6 +10,4 @@ import { BaseViewModel } from "@core/base";
  */
 @ObservedV2
 export default class TnNotifyViewModel extends BaseViewModel {
-  /** 操作结果文本 */
-  @Trace resultText: string = "";
 }
