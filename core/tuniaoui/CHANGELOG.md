@@ -1,5 +1,13 @@
 # 版本记录
 
+## 1.0.4
+
+##### 新增：
+1. 新增 TnProgress 进度条组件；
+2. 新增 TnCountDown 倒计时组件；
+3. 新增 TnCountTo 数字跳转组件；
+4. 新增 TnCountScroll 数字滚动组件；
+
 ## 1.0.3
 
 ##### 新增：

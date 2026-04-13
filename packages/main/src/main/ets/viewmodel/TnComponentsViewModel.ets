@@ -245,7 +245,7 @@ export default class TnComponentsViewModel extends BaseViewModel {
     ),
     new ComponentGroupItem(
       "展示组件",
-      "图片预览、相册、轮播图等内容展示组件",
+      "图片预览、相册、轮播图、进度条等内容展示组件",
       [
         new CoreCardItem(
           "图片预览",
@@ -266,6 +266,34 @@ export default class TnComponentsViewModel extends BaseViewModel {
           "Swiper 轮播图组件",
           () => {
             this.navigateTo(MainRoutes.TnSwiper);
+          }
+        ),
+        new CoreCardItem(
+          "进度条",
+          "Progress 进度条组件",
+          () => {
+            this.navigateTo(MainRoutes.TnProgress);
+          }
+        ),
+        new CoreCardItem(
+          "倒计时",
+          "CountDown 倒计时组件",
+          () => {
+            this.navigateTo(MainRoutes.TnCountDown);
+          }
+        ),
+        new CoreCardItem(
+          "数字跳转",
+          "CountTo 数字跳转组件",
+          () => {
+            this.navigateTo(MainRoutes.TnCountTo);
+          }
+        ),
+        new CoreCardItem(
+          "数字滚动",
+          "CountScroll 数字滚动组件",
+          () => {
+            this.navigateTo(MainRoutes.TnCountScroll);
           }
         )
       ]

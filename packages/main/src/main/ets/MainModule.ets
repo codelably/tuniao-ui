@@ -20,7 +20,7 @@ import {
 } from './navigation/FormComponentNav';
 import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper, TnToastNavWrapper, TnNoticeBarNavWrapper } from './navigation/FeedbackComponentNav';
 import { TnListNavWrapper, TnCollapseNavWrapper } from './navigation/LayoutComponentNav';
-import { TnPhotoAlbumNavWrapper, TnSwiperNavWrapper } from './navigation/DisplayComponentNav';
+import { TnPhotoAlbumNavWrapper, TnSwiperNavWrapper, TnProgressNavWrapper, TnCountDownNavWrapper, TnCountToNavWrapper, TnCountScrollNavWrapper } from './navigation/DisplayComponentNav';
 import { MainNavSvcImpl } from './services/MainNavSvcImpl';
 import { Logger } from '@core/util';
 
@@ -115,6 +115,10 @@ export class MainModule implements FeatureModule {
     // 注册展示组件页面路由
     registry.register(MainRoutes.TnPhotoAlbum, TnPhotoAlbumNavWrapper);
     registry.register(MainRoutes.TnSwiper, TnSwiperNavWrapper);
+    registry.register(MainRoutes.TnProgress, TnProgressNavWrapper);
+    registry.register(MainRoutes.TnCountDown, TnCountDownNavWrapper);
+    registry.register(MainRoutes.TnCountTo, TnCountToNavWrapper);
+    registry.register(MainRoutes.TnCountScroll, TnCountScrollNavWrapper);
     // 注册布局组件页面路由
     registry.register(MainRoutes.TnList, TnListNavWrapper);
     registry.register(MainRoutes.TnCollapse, TnCollapseNavWrapper);

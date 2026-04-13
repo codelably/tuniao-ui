@@ -163,4 +163,20 @@ export class MainRoutes {
    * 轮播图展示页面路由
    */
   static TnSwiper = "main/tn-swiper";
+  /**
+   * 进度条展示页面路由
+   */
+  static TnProgress = "main/tn-progress";
+  /**
+   * 倒计时展示页面路由
+   */
+  static TnCountDown = "main/tn-count-down";
+  /**
+   * 数字跳转展示页面路由
+   */
+  static TnCountTo = "main/tn-count-to";
+  /**
+   * 数字滚动展示页面路由
+   */
+  static TnCountScroll = "main/tn-count-scroll";
 }

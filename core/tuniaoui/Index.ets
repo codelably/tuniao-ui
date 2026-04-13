@@ -129,3 +129,12 @@ export { TnPhotoAlbum } from './src/main/ets/components/photo-album/TnPhotoAlbum
 export { TnPhotoAlbumImgMode, TnPhotoAlbumProps } from './src/main/ets/components/photo-album/TnPhotoAlbumTypes';
 export { TnSwiper } from './src/main/ets/components/swiper/TnSwiper';
 export { TnSwiperIndicatorType, TnSwiperIndicatorPosition, TnSwiperEffect, TnSwiperProps } from './src/main/ets/components/swiper/TnSwiperTypes';
+export { TnLineProgress } from './src/main/ets/components/progress/TnLineProgress';
+export { TnCircleProgress } from './src/main/ets/components/progress/TnCircleProgress';
+export { TnLineProgressProps, TnCircleProgressProps } from './src/main/ets/components/progress/TnProgressTypes';
+export { TnCountDown } from './src/main/ets/components/count-down/TnCountDown';
+export { TnCountDownController, TnCountDownSeparatorMode, TnCountDownProps } from './src/main/ets/components/count-down/TnCountDownTypes';
+export { TnCountTo } from './src/main/ets/components/count-to/TnCountTo';
+export { TnCountToController, TnCountToProps } from './src/main/ets/components/count-to/TnCountToTypes';
+export { TnCountScroll } from './src/main/ets/components/count-scroll/TnCountScroll';
+export { TnCountScrollProps } from './src/main/ets/components/count-scroll/TnCountScrollTypes';
