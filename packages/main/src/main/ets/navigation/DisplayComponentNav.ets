@@ -10,6 +10,7 @@ import { TnProgressPage } from '../view/TnProgressPage';
 import { TnCountDownPage } from '../view/TnCountDownPage';
 import { TnCountToPage } from '../view/TnCountToPage';
 import { TnCountScrollPage } from '../view/TnCountScrollPage';
+import { TnReadMorePage } from '../view/TnReadMorePage';
 
 /**
  * 相册页面导航入口
@@ -70,3 +71,13 @@ export function TnCountScrollNav(): void {
 }
 
 export const TnCountScrollNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnCountScrollNav);
+
+/**
+ * 阅读更多页面导航入口
+ */
+@Builder
+export function TnReadMoreNav(): void {
+  TnReadMorePage();
+}
+
+export const TnReadMoreNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnReadMoreNav);

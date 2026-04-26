@@ -18,9 +18,9 @@ import {
   TnImageUploadNavWrapper, TnCalendarNavWrapper, TnWeekCalendarNavWrapper, TnFormNavWrapper,
   TnImagePreviewNavWrapper
 } from './navigation/FormComponentNav';
-import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper, TnToastNavWrapper, TnNoticeBarNavWrapper } from './navigation/FeedbackComponentNav';
+import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper, TnToastNavWrapper, TnNoticeBarNavWrapper, TnActionSheetNavWrapper, TnEmptyNavWrapper } from './navigation/FeedbackComponentNav';
 import { TnListNavWrapper, TnCollapseNavWrapper } from './navigation/LayoutComponentNav';
-import { TnPhotoAlbumNavWrapper, TnSwiperNavWrapper, TnProgressNavWrapper, TnCountDownNavWrapper, TnCountToNavWrapper, TnCountScrollNavWrapper } from './navigation/DisplayComponentNav';
+import { TnPhotoAlbumNavWrapper, TnSwiperNavWrapper, TnProgressNavWrapper, TnCountDownNavWrapper, TnCountToNavWrapper, TnCountScrollNavWrapper, TnReadMoreNavWrapper } from './navigation/DisplayComponentNav';
 import { MainNavSvcImpl } from './services/MainNavSvcImpl';
 import { Logger } from '@core/util';
 
@@ -112,6 +112,8 @@ export class MainModule implements FeatureModule {
     registry.register(MainRoutes.TnNotify, TnNotifyNavWrapper);
     registry.register(MainRoutes.TnToast, TnToastNavWrapper);
     registry.register(MainRoutes.TnNoticeBar, TnNoticeBarNavWrapper);
+    registry.register(MainRoutes.TnActionSheet, TnActionSheetNavWrapper);
+    registry.register(MainRoutes.TnEmpty, TnEmptyNavWrapper);
     // 注册展示组件页面路由
     registry.register(MainRoutes.TnPhotoAlbum, TnPhotoAlbumNavWrapper);
     registry.register(MainRoutes.TnSwiper, TnSwiperNavWrapper);
@@ -119,6 +121,7 @@ export class MainModule implements FeatureModule {
     registry.register(MainRoutes.TnCountDown, TnCountDownNavWrapper);
     registry.register(MainRoutes.TnCountTo, TnCountToNavWrapper);
     registry.register(MainRoutes.TnCountScroll, TnCountScrollNavWrapper);
+    registry.register(MainRoutes.TnReadMore, TnReadMoreNavWrapper);
     // 注册布局组件页面路由
     registry.register(MainRoutes.TnList, TnListNavWrapper);
     registry.register(MainRoutes.TnCollapse, TnCollapseNavWrapper);

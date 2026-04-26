@@ -9,6 +9,8 @@ import { TnModalPage } from '../view/TnModalPage';
 import { TnNotifyPage } from '../view/TnNotifyPage';
 import { TnToastPage } from '../view/TnToastPage';
 import { TnNoticeBarPage } from '../view/TnNoticeBarPage';
+import { TnActionSheetPage } from '../view/TnActionSheetPage';
+import { TnEmptyPage } from '../view/TnEmptyPage';
 
 /**
  * 弹出框页面导航入口
@@ -59,3 +61,23 @@ export function TnNoticeBarNav(): void {
 }
 
 export const TnNoticeBarNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnNoticeBarNav);
+
+/**
+ * 操作面板页面导航入口
+ */
+@Builder
+export function TnActionSheetNav(): void {
+  TnActionSheetPage();
+}
+
+export const TnActionSheetNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnActionSheetNav);
+
+/**
+ * 空白页页面导航入口
+ */
+@Builder
+export function TnEmptyNav(): void {
+  TnEmptyPage();
+}
+
+export const TnEmptyNavWrapper: WrappedBuilder<[]> = wrapBuilder(TnEmptyNav);

@@ -1,6 +1,6 @@
 {
   "name": "@tuniao/tn-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "基于 HarmonyOS ArkTS 开发的原生 UI 组件库，由 TuniaoUI Vue3 移植适配而来。",
   "main": "Index.ets",
   "author": "JunBin.Yang",

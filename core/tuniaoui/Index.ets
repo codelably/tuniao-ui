@@ -115,6 +115,8 @@ export { default as TnToast } from './src/main/ets/components/toast/TnToast';
 export { TnToastType, TnToastPosition, TnToastWordBreak, TnToastOption, TnToastLoadingOption } from './src/main/ets/components/toast/TnToastTypes';
 export { TnNoticeBar } from './src/main/ets/components/notice-bar/TnNoticeBar';
 export { TnNoticeBarDirection, TnNoticeBarMode } from './src/main/ets/components/notice-bar/TnNoticeBarTypes';
+export { TnActionSheet } from './src/main/ets/components/action-sheet/TnActionSheet';
+export { TnActionSheetItem, TnActionSheetCloseAction, TnActionSheetBeforeClose } from './src/main/ets/components/action-sheet/TnActionSheetTypes';
 
 // Phase 8: 布局组件
 export { TnList } from './src/main/ets/components/list/TnList';
@@ -138,3 +140,7 @@ export { TnCountTo } from './src/main/ets/components/count-to/TnCountTo';
 export { TnCountToController, TnCountToProps } from './src/main/ets/components/count-to/TnCountToTypes';
 export { TnCountScroll } from './src/main/ets/components/count-scroll/TnCountScroll';
 export { TnCountScrollProps } from './src/main/ets/components/count-scroll/TnCountScrollTypes';
+export { TnReadMore } from './src/main/ets/components/read-more/TnReadMore';
+export { TnReadMoreBeforeExpand, TnReadMoreProps } from './src/main/ets/components/read-more/TnReadMoreTypes';
+export { TnEmpty } from './src/main/ets/components/empty/TnEmpty';
+export { TnEmptyMode, TnEmptySizeType, TnEmptyProps, TN_EMPTY_DEFAULT_TIPS } from './src/main/ets/components/empty/TnEmptyTypes';

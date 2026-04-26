@@ -179,4 +179,16 @@ export class MainRoutes {
    * 数字滚动展示页面路由
    */
   static TnCountScroll = "main/tn-count-scroll";
+  /**
+   * 阅读更多展示页面路由
+   */
+  static TnReadMore = "main/tn-read-more";
+  /**
+   * 操作面板展示页面路由
+   */
+  static TnActionSheet = "main/tn-action-sheet";
+  /**
+   * 空白页展示页面路由
+   */
+  static TnEmpty = "main/tn-empty";
 }

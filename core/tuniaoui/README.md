@@ -77,8 +77,8 @@ struct DemoPage {
 | 基础组件 | Icon 图标、Button 按钮、Tag 标签、Badge 徽标、Loading 加载                                                                                     |
 | 表单组件 | Switch 开关、Radio 单选框、Checkbox 复选框、Rate 评分、Input 输入框、NumberBox 步进器、Slider 滑块、ImageUpload 图片上传、Calendar 日历、WeekCalendar 周日历、Form 表单 |
 | 选择器 | Picker 选择器、DateTimePicker 日期时间选择器、RegionPicker 地区选择器                                                                             |
-| 展示组件 | ImagePreview 图片预览、PhotoAlbum 相册、Swiper 轮播图、Progress 进度条、CountDown 倒计时、CountTo 数字跳转、CountScroll 数字滚动                                                                                                 |
-| 反馈组件 | Popup 弹出框、Modal 模态框、Notify 消息通知、Toast 轻提示、NoticeBar 通知栏                                                                          |
+| 展示组件 | ImagePreview 图片预览、PhotoAlbum 相册、Swiper 轮播图、Progress 进度条、CountDown 倒计时、CountTo 数字跳转、CountScroll 数字滚动、ReadMore 阅读更多                |
+| 反馈组件 | Popup 弹出框、Modal 模态框、Notify 消息通知、Toast 轻提示、NoticeBar 通知栏、ActionSheet 操作菜单、Empty 空白页                                               |
 | 布局组件 | List 列表、Collapse 折叠面板                                                                                                            |
 
 ## 微信群
