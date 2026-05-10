@@ -144,6 +144,10 @@ export class MainRoutes {
    */
   static TnCollapse = "main/tn-collapse";
   /**
+   * 吸顶展示页面路由
+   */
+  static TnSticky = "main/tn-sticky";
+  /**
    * 通知栏展示页面路由
    */
   static TnNoticeBar = "main/tn-notice-bar";
@@ -191,4 +195,20 @@ export class MainRoutes {
    * 空白页展示页面路由
    */
   static TnEmpty = "main/tn-empty";
+  /**
+   * 瀑布流展示页面路由
+   */
+  static TnWaterFall = "main/tn-water-fall";
+  /**
+   * 选项卡切换展示页面路由
+   */
+  static TnSwitchTab = "main/tn-switch-tab";
+  /**
+   * 分段器展示页面路由
+   */
+  static TnSubsection = "main/tn-subsection";
+  /**
+   * 搜索框展示页面路由
+   */
+  static TnSearchBox = "main/tn-search-box";
 }

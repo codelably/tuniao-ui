@@ -33,7 +33,7 @@
 | 选择器 | Picker 选择器、DateTimePicker 日期时间选择器、RegionPicker 地区选择器                                                                             |
 | 展示组件 | ImagePreview 图片预览、PhotoAlbum 相册、Swiper 轮播图、Progress 进度条、CountDown 倒计时、CountTo 数字跳转、CountScroll 数字滚动                                              |
 | 反馈组件 | Popup 弹出框、Modal 模态框、Notify 消息通知、Toast 轻提示、NoticeBar 通知栏                                                                          |
-| 布局组件 | List 列表、Collapse 折叠面板                                                                                                            |
+| 布局组件 | List 列表、Collapse 折叠面板、Sticky 吸顶组件、WaterFall 瀑布流、SwitchTab 选项卡切换、Subsection 分段器、SearchBox 搜索框                                                                                                            |
 
 > 持续开发中，更多组件正在移植适配。
 

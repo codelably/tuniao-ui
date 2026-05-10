@@ -1,5 +1,14 @@
 # 版本记录
 
+## 1.0.6
+
+##### 新增：
+1. 新增 TnSticky 吸顶组件；
+2. 新增 TnWaterFall 瀑布流；
+3. 新增 TnSwitchTab 选项卡切换；
+4. 新增 TnSubsection 分段器；
+5. 新增 TnSearchBox 搜索框；
+
 ## 1.0.5
 
 ##### 新增：

@@ -377,6 +377,41 @@ export default class TnComponentsViewModel extends BaseViewModel {
           () => {
             this.navigateTo(MainRoutes.TnCollapse);
           }
+        ),
+        new CoreCardItem(
+          "吸顶",
+          "Sticky 吸顶组件",
+          () => {
+            this.navigateTo(MainRoutes.TnSticky);
+          }
+        ),
+        new CoreCardItem(
+          "瀑布流",
+          "WaterFall 瀑布流组件",
+          () => {
+            this.navigateTo(MainRoutes.TnWaterFall);
+          }
+        ),
+        new CoreCardItem(
+          "选项卡切换",
+          "SwitchTab 选项卡切换组件",
+          () => {
+            this.navigateTo(MainRoutes.TnSwitchTab);
+          }
+        ),
+        new CoreCardItem(
+          "分段器",
+          "Subsection 分段器组件",
+          () => {
+            this.navigateTo(MainRoutes.TnSubsection);
+          }
+        ),
+        new CoreCardItem(
+          "搜索框",
+          "SearchBox 搜索框组件",
+          () => {
+            this.navigateTo(MainRoutes.TnSearchBox);
+          }
         )
       ]
     )

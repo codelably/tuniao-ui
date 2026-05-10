@@ -19,7 +19,7 @@ import {
   TnImagePreviewNavWrapper
 } from './navigation/FormComponentNav';
 import { TnPopupNavWrapper, TnModalNavWrapper, TnNotifyNavWrapper, TnToastNavWrapper, TnNoticeBarNavWrapper, TnActionSheetNavWrapper, TnEmptyNavWrapper } from './navigation/FeedbackComponentNav';
-import { TnListNavWrapper, TnCollapseNavWrapper } from './navigation/LayoutComponentNav';
+import { TnListNavWrapper, TnCollapseNavWrapper, TnStickyNavWrapper, TnWaterFallNavWrapper, TnSwitchTabNavWrapper, TnSubsectionNavWrapper, TnSearchBoxNavWrapper } from './navigation/LayoutComponentNav';
 import { TnPhotoAlbumNavWrapper, TnSwiperNavWrapper, TnProgressNavWrapper, TnCountDownNavWrapper, TnCountToNavWrapper, TnCountScrollNavWrapper, TnReadMoreNavWrapper } from './navigation/DisplayComponentNav';
 import { MainNavSvcImpl } from './services/MainNavSvcImpl';
 import { Logger } from '@core/util';
@@ -125,6 +125,11 @@ export class MainModule implements FeatureModule {
     // 注册布局组件页面路由
     registry.register(MainRoutes.TnList, TnListNavWrapper);
     registry.register(MainRoutes.TnCollapse, TnCollapseNavWrapper);
+    registry.register(MainRoutes.TnSticky, TnStickyNavWrapper);
+    registry.register(MainRoutes.TnWaterFall, TnWaterFallNavWrapper);
+    registry.register(MainRoutes.TnSwitchTab, TnSwitchTabNavWrapper);
+    registry.register(MainRoutes.TnSubsection, TnSubsectionNavWrapper);
+    registry.register(MainRoutes.TnSearchBox, TnSearchBoxNavWrapper);
     // 注册阴影页面路由
     registry.register(MainRoutes.Shadow, ShadowNavWrapper);
     // 注册毛玻璃效果页面路由

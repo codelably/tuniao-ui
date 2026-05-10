@@ -125,6 +125,16 @@ export { TnListItemProps, TnListProps } from './src/main/ets/components/list/TnL
 export { TnCollapse } from './src/main/ets/components/collapse/TnCollapse';
 export { TnCollapseItem } from './src/main/ets/components/collapse/TnCollapseItem';
 export { TN_COLLAPSE_EVENT, getTnCollapseEventName } from './src/main/ets/components/collapse/TnCollapseTypes';
+export { TnSticky } from './src/main/ets/components/sticky/TnSticky';
+export { TnStickyProps } from './src/main/ets/components/sticky/TnStickyTypes';
+export { TnWaterFall } from './src/main/ets/components/water-fall/TnWaterFall';
+export { TnWaterFallProps, TnWaterFallDataSource } from './src/main/ets/components/water-fall/TnWaterFallTypes';
+export { TnSwitchTab } from './src/main/ets/components/switch-tab/TnSwitchTab';
+export { TnSwitchTabProps } from './src/main/ets/components/switch-tab/TnSwitchTabTypes';
+export { TnSubsection } from './src/main/ets/components/subsection/TnSubsection';
+export { TnSubsectionMode, TnSubsectionProps } from './src/main/ets/components/subsection/TnSubsectionTypes';
+export { TnSearchBox } from './src/main/ets/components/search-box/TnSearchBox';
+export { TnSearchBoxShape, TnSearchBoxSize, TnSearchBoxClearTrigger, TnSearchBoxProps } from './src/main/ets/components/search-box/TnSearchBoxTypes';
 
 // Phase 9: 展示组件
 export { TnPhotoAlbum } from './src/main/ets/components/photo-album/TnPhotoAlbum';
